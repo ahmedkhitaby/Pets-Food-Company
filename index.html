@@ -12,7 +12,7 @@
 		<!-----------------------Fonts------------------------->
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
 		<link
@@ -24,6 +24,257 @@
 		<title>Pets Food Company</title>
 	</head>
 	<body>
+		<!-----------------------Header Section------------------------->
+		<header class="header">
+			<div class="container">
+				<nav class="toolbar" >
+					<div class="toolbar__logo">
+						<img
+							src="assets/images/header/header_logo.png"
+							alt="Company logo"
+						/>
+					</div>
+					<button class="drawer-btn" id="drawer-btn"><span></span></button>
+					<ul class="toolbar__nav-list" id="navigator">
+						<li class="toolbar__nav-item">
+							<a class="toolbar__nav-link" href="#">Shop for dog</a>
+						</li>
+						<li class="toolbar__nav-item">
+							<a class="toolbar__nav-link" href="#">Shop for cat</a>
+						</li>
+						<li class="toolbar__nav-item">
+							<a class="toolbar__nav-link" href="#">Our story</a>
+						</li>
+						<li class="toolbar__nav-item">
+							<a class="toolbar__nav-link" href="#">Contact us</a>
+						</li>
+					</ul>
+				</nav>
+
+				</nav>
+				<div class="header__context">
+					<div class="">
+						<h1 class="header__heading">
+							Help your Dog Maintain <br />
+							a <span class="blue-text">Healthier Weight</span> with
+						</h1>
+						<div class="header__quote">
+							<h2 class="header_quote-heading blue-text">
+								100% Organic <br />
+								Pet Food
+							</h2>
+							<img src="assets/images/header/quote_frame.png" alt="quote" />
+						</div>
+					</div>
+				</div>
+				<img
+					class="header__food-bag"
+					src="assets/images/dog_food_bag.png"
+					alt="Dog dry food"
+				/>
+			</div>
+		</header>
+		<!-----------------------Header Section------------------------->
+		<!-----------------------Story Section------------------------->
+		<section class="section story">
+			<img
+				class="story__dog"
+				src="assets/images/our story/our_story_dog.png"
+				alt="dog"
+			/>
+			<div class="container">
+				<div class="sotry__context">
+					<div class="story__box">
+						<h2 class="story__heading">
+							<span class="brown-text">Our</span><br /><span
+								class="light-blue-text"
+								>Story</span
+							>
+						</h2>
+						<article class="story__article">
+							<p class="story__paragraph">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+								ipsum su spendisse ultrices gravida. Risus commodo viverra maec
+								enas accumsan lacus vel facilisis.
+							</p>
+							<a href="#" class="blue-text read-more"> Read more</a>
+						</article>
+					</div>
+					<img
+						class="story__img"
+						src="./assets/images/dog_food_bag.png"
+						alt="Dog dry food"
+					/>
+				</div>
+			</div>
+		</section>
+		<!-----------------------Story Section------------------------->
+		<!-----------------------Start With Us Section------------------------->
+		<section class="start-with-us">
+			<div class="section ingredient-box">
+				<div class="container">
+					<h2 class="ingredient-box__heading hand-font">
+						Our no. 1 ingredient: <br />
+						<span>Real Chicken & Egg</span>
+					</h2>
+					<p class="ingredient-box__paragraph">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+			</div>
+			<div class="section perfect-start">
+				<div class="container">
+					<article class="perfect-start__article">
+						<h2 class="perfect-start__heading hand-font brown-text">
+							The perfect start to life
+						</h2>
+						<p class="perfect-start__paragraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+						<a class="btn btn-primary" href="#">Learn more</a>
+					</article>
+					<img
+						class="perfect-start__img"
+						src="assets/images/start_with_us/startwithus_dog.png"
+						alt="dog"
+					/>
+				</div>
+			</div>
+		</section>
+		<!-----------------------Start With Us Section------------------------->
+		<!-----------------------Learn More Section------------------------->
+		<section class="learn-more">
+			<div class="container">
+				<div class="box section">
+					<h2 class="brown-text hand-font box__heading">
+						Learn more about dog breeds
+					</h2>
+					<form>
+						<input
+							type="search"
+							placeholder="Search breeds"
+							name="search"
+							class="box__search-box"
+						/>
+
+						<button type="submit" class="box__button btn btn-primary">
+							View all dog breeds
+						</button>
+					</form>
+				</div>
+				<div class="learn-more__img-box">
+					<img
+						class="learn-more__dog"
+						src="assets/images/learn more/learnMore_dog.png"
+					/>
+				</div>
+				<div class="box section">
+					<h2 class="brown-text hand-font box__heading">
+						Thinking of getting a dog?
+					</h2>
+					<p class="box__paragraph">
+						There are many things you need to know before getting a dog.
+					</p>
+					<a href="#" class="about-dogs__button btn btn-primary">Learn More</a>
+				</div>
+			</div>
+		</section>
+		<!-----------------------Learn More Section------------------------->
+		<!-----------------------Right Food Section------------------------->
+		<section class="right-food section">
+			<div class="container">
+				<div class="right-food__img-box">
+					<img
+						class="right-food__img"
+						src="assets/images/dog_food_bag.png"
+						alt="Dog dry food"
+					/>
+				</div>
+				<article class="right-food__article">
+					<h2 class="brown-text hand-font right-food__heading">
+						Find the right food for your dog
+					</h2>
+					<p class="right-food__paragraph">
+						Each formula has been created to deliver nutrition tailored to your
+						dog's health needs whatever their size, breed, age, or lifestyle.
+					</p>
+					<a class="btn btn-primary" href="#">View all products</a>
+				</article>
+			</div>
+		</section>
+		<!-----------------------Right Food Section------------------------->
+		<!-----------------------Footer Section------------------------->
+		<section class="footer">
+			<div class="container">
+				<div class="footer__quote-block">
+					<img
+						class="footer__quote-frame"
+						src="assets/images/footer/quote_frame_white.png"
+						alt="quote"
+					/>
+					<img
+						class="footer__quote-img"
+						src="assets/images/footer/footer_logo.png"
+						alt="company logo"
+					/>
+				</div>
+				<div class="footer__context">
+					<ul class="navigation-list">
+						<li class="navigation-item">
+							<a href="#" class="navigation-link">Shop for dog</a>
+						</li>
+						<li class="navigation-item">
+							<a href="#" class="navigation-link">Shop for cat</a>
+						</li>
+						<li class="navigation-item">
+							<a href="#" class="navigation-link">Our story</a>
+						</li>
+						<li class="navigation-item">
+							<a href="#" class="navigation-link">Contact us</a>
+						</li>
+					</ul>
+					<div class="footer-end">
+						<p class="copyrights">
+							&copy; Company Name <span id="year"></span>. All rights reserved.
+						</p>
+						<ul class="social-media">
+							<li class="social-media__item">
+								<a href="#">
+									<svg class="instagram">
+										<use xlink:href="icons_sprite.svg#icon-instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-media__item">
+								<a href="#">
+									<svg class="facebook">
+										<use xlink:href="icons_sprite.svg#icon-facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-media__item">
+								<a href="#">
+									<svg class="twitter">
+										<use xlink:href="icons_sprite.svg#icon-twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li class="social-media__item">
+								<a href="#">
+									<svg class="whatsapp">
+										<use xlink:href="icons_sprite.svg#icon-whatsapp"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-----------------------Footer Section------------------------->
 		<!-----------------------Scripts------------------------->
 		<script src="assets/js/index.js"></script>
 	</body>
